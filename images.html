@@ -12,9 +12,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
-        <link rel="icon" type="image/x-icon" href="/favicon.ico">
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <title>Labororation 2.0</title>
 </head>
 
@@ -22,20 +22,21 @@
     <header>
         <div class="logoarea"><a href="index.html"><img id="logonav" src="images/logo.svg"
                     alt="logo med eklöv och initialerna F,T"></a></div>
-         <nav>
+        <nav>
             <ul>
-                    <li class="linkarea"><a href="index.html"><i class="fa-solid fa-house"></i>Hem</a></li>
-                
-                    <li class="linkarea"><a href="images.html"><i class="fa-solid fa-images"></i>Bilder</a></li>
-                
-                    <li class="linkarea"><a href="about.html"><i class="fa-solid fa-user"></i>Info</a></li>
-                    
+                <li class="linkarea"><a href="index.html"><i class="fa-solid fa-house"></i>Hem</a></li>
+
+                <li class="linkarea"><a href="images.html"><i class="fa-solid fa-images"></i>Bilder</a></li>
+
+                <li class="linkarea"><a href="about.html"><i class="fa-solid fa-user"></i>Info</a></li>
+
             </ul>
         </nav>
     </header>
     <main>
         <div class="topbar">
-            <a href="index.html" id="logotop"><img id="logoimg" src="images/logo.svg" alt="logo med eklöv och initialerna F,T"></a>
+            <a href="index.html" id="logotop"><img id="logoimg" src="images/logo.svg"
+                    alt="logo med eklöv och initialerna F,T"></a>
             <p>Laboration 2.0</p>
         </div>
         <section id="pictureinfo">
@@ -45,24 +46,38 @@
         <section id="realshow">
             <div class="images">
                 <h2 class="topp">Bild 006:</h2>
-                <img class="realshowimg" src="images/bildserie004.jpg"
-                    alt="kargt landskap där vatten rinner genom kullar">
-                <img class="realshowimg" src="images/bildserie004original.jpg"
-                    alt="kargt landskap där vatten rinner genom kullar">
+                <picture>
+                    <source srcset="images/bildserie004.webp" type="image/webp">
+                    <img class="realshowimg" src="images/bildserie004.jpg"
+                        alt="kargt landskap där vatten rinner genom kullar" loading="lazy">
+                </picture>
+                <picture>
+                    <source srcset="images/bildserie004original.webp" type="image/webp">
+                    <img class="realshowimg" src="images/bildserie004original.jpg"
+                        alt="kargt landskap där vatten rinner genom kullar" loading="lazy">
+                </picture>
                 <p class="bottomp">Beskrivning av vad som gjorts:</p>
                 <ul class="imageul">
                     <li>Ökat exponeringen för att få in mer ljus</li>
                     <li>Ökat mättnad för mer färg</li>
-                    <li>Med en mask över vissa delar, ökat gröna <br>och röda toner på andra partier <br> för mer liv i bilden</li>
+                    <li>Med en mask över vissa delar, ökat <br>gröna och röda toner på andra partier <br> för mer liv i
+                        bilden</li>
                     <li>Beskurit för ett nytt fokus</li>
                 </ul>
             </div>
 
             <div class="images">
                 <h2 class="topp">Bild 001:</h2>
-                <img class="realshowimg" src="images/bildserie001.jpg" alt="en rosa och en lila blomma med en berg i bakgrunden">
-                <img class="realshowimg" src="images/bildserie001original.jpg"
-                    alt="två rosa blommor med en berg i bakgrunden">
+                <picture>
+                    <source srcset="images/bildserie001.webp" type="image/webp">
+                    <img class="realshowimg" src="images/bildserie001.jpg"
+                        alt="en rosa och en lila blomma med en berg i bakgrunden" loading="lazy">
+                </picture>
+                <picture>
+                    <source srcset="images/bildserie001original.webp" type="image/webp">
+                    <img class="realshowimg" src="images/bildserie001original.jpg"
+                        alt="två rosa blommor med en berg i bakgrunden" loading="lazy">
+                </picture>
                 <p class="bottomp">Beskrivning av vad som gjorts:</p>
                 <ul class="imageul">
                     <li>Ökat exponeringen för att få in mer ljus</li>
@@ -76,9 +91,16 @@
 
             <div class="images">
                 <h2 class="topp">Bild 017:</h2>
-                <img class="realshowimg" src="images/bildserie017.jpg" alt="vy över flod och berg i djungel">
-                <img class="realshowimg" src="images/bildserie017original.jpg"
-                    alt="vy över flod och berg i djungel där en person gör yoga">
+                <picture>
+                    <source srcset="images/bildserie017.webp" type="image/webp">
+                    <img class="realshowimg" src="images/bildserie017.jpg" alt="vy över flod och berg i djungel"
+                        loading="lazy">
+                </picture>
+                <picture>
+                    <source srcset="images/bildserie017original.webp" type="image/webp">
+                    <img class="realshowimg" src="images/bildserie017original.jpg"
+                        alt="vy över flod och berg i djungel där en person gör yoga" loading="lazy">
+                </picture>
                 <p class="bottomp">Beskrivning av vad som gjorts:</p>
                 <ul class="imageul">
                     <li>Med patch och stamp tagit bort person i förgrunden</li>
@@ -87,7 +109,7 @@
                     <li>Beskurit för annan komposition</li>
                 </ul>
             </div>
-            
+
             <a href="index.html" class="backbutton">Tillbaka</a>
         </section>
     </main>
