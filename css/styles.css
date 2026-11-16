@@ -412,7 +412,7 @@ main {
     .images {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        max-width: 1000px;
+        max-width: 1600px;
     }
 
     .topp {
@@ -427,9 +427,34 @@ main {
         grid-column: 1;
     }
 
-    .realshowimg {
-        width: 100%;
-        padding: 10px;
-        align-self: flex-end;
-    }
+.images picture {
+    align-self: flex-end;
+    width: 100%;
+    margin: 10px;
+}
+
+#pictureinfo h1 {
+    font-size: 2.6em;
+}
+
+#pictureinfo p {
+    font-size: 1.5em;
+}
+
+.bottomp {
+    font-size: 1.5em;
+}
+
+.imageul {
+    font-size: 1.5em;
+}
+
+}
+
+@media (min-width: 1300px) {
+
+.realshowimg {
+    max-width: 600px;
+}
+
 }
