@@ -92,7 +92,7 @@ main {
 
 #heroimg {
     width: 100%;
-    max-height: 380px;
+    max-height: 340px;
 }
 
 #info {
@@ -226,6 +226,10 @@ main {
         padding: 10px 40px;
         font-size: 1.2em;
     }
+
+#heroimg {
+    max-height: 420px;
+}
 
     #info h1 {
         font-size: 2.6em;
