@@ -82,6 +82,7 @@ nav a {
 .topbar p {
     align-self: center;
     margin-right: 20px;
+    font-size: 1.4em;
 }
 
 /* Här börjar huvudinnehållet */
@@ -103,6 +104,7 @@ main {
 #info h1 {
     margin-bottom: 0;
     text-align: center;
+    font-size: 2.2em;
 }
 
 #info p {
@@ -111,6 +113,7 @@ main {
     text-align: justify;
     align-self: center;
     max-width: 460px;
+    font-size: 1.2em;
 }
 
 .imgbutton {
@@ -124,6 +127,7 @@ main {
     text-decoration: none;
     color: black;
     max-width: 150px;
+    font-size: 1.2em;
 }
 
 .imgbutton:hover {
@@ -166,6 +170,7 @@ main {
     justify-self: center;
     text-align: center;
     max-width: 150px;
+    font-size: 1.2em;
 }
 
 .aboutbutton:hover {
