@@ -37,7 +37,10 @@
             <a href="index.html" id="logotop"><img id="logoimg" src="images/logo.svg" alt="logo med eklöv och initialerna F,T"></a>
             <p>Laboration 2.0</p>
         </div>
-        <img id="heroimg" src="images/header.png" alt="utsikt över skånska vidder i dimma">
+        <picture>
+            <source srcset="images/header.avif" type="image/avif">
+            <img id="heroimg" src="images/header.png" alt="utsikt över skånska vidder i dimma">
+        </picture>
         <section id="info">
             <h1>Laboration 2.0</h1>
             <p>I den här laborationen har jag fått i uppdrag att optimera och redigera
@@ -47,10 +50,22 @@
         </section>
         <section id="preshow">
             <h2>Dessa bilder har jag redigerat:</h2>
-            <img class="preshowimg" src="images/bildserie006.jpg" alt="grön fluga sitter mitt i en blomma">
-            <img class="preshowimg" src="images/bildserie017.jpg" alt="vy över flod och berg i djungel">
-            <img class="preshowimg" src="images/bildserie001.jpg" alt="två rosa blommor med en berg i bakgrunden">
-            <img class="preshowimg" src="images/bildserie004.jpg" alt="kargt landskap där vatten rinner genom kullar">
+            <picture>
+                <source srcset="images/bildserie006.webp" type="image/webp">
+                <img class="preshowimg" src="images/bildserie006.jpg" alt="grön fluga sitter mitt i en blomma" loading="lazy">
+            </picture>
+            <picture>
+                <source srcset="images/bildserie017.webp" type="image/webp">
+            <img class="preshowimg" src="images/bildserie017.jpg" alt="vy över flod och berg i djungel" loading="lazy">
+            </picture>
+            <picture>
+                <source srcset="images/bildserie001.webp" type="image/webp">
+            <img class="preshowimg" src="images/bildserie001.jpg" alt="två rosa blommor med en berg i bakgrunden" loading="lazy">
+            </picture>
+            <picture>
+                <source srcset="images/bildserie004.webp" type="image/webp">
+                <img class="preshowimg" src="images/bildserie004.jpg" alt="kargt landskap där vatten rinner genom kullar" loading="lazy">
+            </picture>
             <a href="about.html" class="aboutbutton">Om mig</a>
         </section>
     </main>

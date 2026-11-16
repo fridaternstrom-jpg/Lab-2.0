@@ -144,12 +144,15 @@ main {
     margin-bottom: 80px;
 }
 
+#preshow picture {
+    align-self: end;
+    justify-self: center;
+}
+
 .preshowimg {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    align-self: center;
-    justify-self: center;
     max-width: 450px;
 }
 
