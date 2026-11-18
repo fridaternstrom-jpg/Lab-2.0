@@ -367,6 +367,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: white;
+    width: 100%;
 }
 
 .realshowimg {
@@ -377,28 +378,31 @@ main {
 
 .images picture {
     width: 90%;
+    text-align: center;
 }
 
 .images {
     margin: 20px;
+    padding: 20px;
     background-color: rgba(119, 136, 153, 0.801);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     max-width: 600px;
+    width: 70%;
     align-self: center;
     align-items: center;
 }
 
 .topp {
-    margin: 20px 0px 0px 20px;
+    margin: 20px 0px 10px 20px;
     align-self: center;
 }
 
 .bottomp {
     align-self: center;
-    margin: 0;
+    margin: 0px 10px;
     font-size: 1.2em;
 }
 
