@@ -383,7 +383,7 @@ main {
 
 .images {
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
     background-color: rgba(119, 136, 153, 0.801);
     border-radius: 10px;
     display: flex;
@@ -453,9 +453,10 @@ main {
     }
 
 .images picture {
-    align-self: flex-end;
     width: 100%;
     margin: 10px;
+    align-self: flex-end;
+    justify-self: center;
 }
 
 #pictureinfo h1 {
@@ -472,6 +473,7 @@ main {
 
 .imageul {
     font-size: 1.5em;
+    grid-column: 1/3;
 }
 
 }
