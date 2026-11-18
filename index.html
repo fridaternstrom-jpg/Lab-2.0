@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/main.js" defer></script>
     <script src="https://kit.fontawesome.com/526849ee76.js" crossorigin="anonymous" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,7 +40,7 @@
             <source srcset="images/header.avif" type="image/avif" media="(min-width: 800px)">
             <source srcset="images/header.png" media="(min-width: 800px)">
             <source srcset="images/headersmall.avif" type="image/avif">
-            <img id="heroimg" src="images/headersmall.png" alt="utsikt över skånska vidder i dimma">
+            <img id="heroimg" src="images/headersmall.png" alt="utsikt över skånska vidder i dimma" fetchpriority="high">
         </picture>
         <section id="info">
             <h1>Laboration 2.0</h1>
@@ -52,21 +51,73 @@
         </section>
         <section id="preshow">
             <h2>Dessa bilder har jag redigerat:</h2>
+
             <picture>
-                <source srcset="images/bildserie006.webp" type="image/webp">
-                <img class="preshowimg" src="images/bildserie006.jpg" alt="grön fluga sitter mitt i en blomma" loading="lazy">
+                <source srcset="images/bildserie006.webp" 
+                type="image/webp"
+                media="(min-width: 800px)">
+                
+                <source srcset="images/bildeserie006.jpg"
+                media="(min-width: 800px)">
+
+                <source srcset="images/bildserie006small.webp"
+                type="image/webp">
+
+                <img class="preshowimg" src="images/bildserie006small.jpg" 
+                alt="grön fluga sitter mitt i en blomma" 
+                loading="lazy">
             </picture>
+
             <picture>
-                <source srcset="images/bildserie017.webp" type="image/webp">
-            <img class="preshowimg" src="images/bildserie017.jpg" alt="vy över flod och berg i djungel" loading="lazy">
+                <source srcset="images/bildserie017.webp" 
+                type="image/webp"
+                media="(min-width: 800px)">
+
+                <source srcset="images/bildserie017.jpg"
+                media="(min-width: 800px)">
+
+                <source srcset="images/bildserie017small.webp"
+                type="image/webp"
+                media="(min-width: 800px)">
+
+            <img class="preshowimg" 
+            src="images/bildserie017small.jpg" 
+            alt="vy över flod och berg i djungel" 
+            loading="lazy">
             </picture>
+
             <picture>
-                <source srcset="images/bildserie001.webp" type="image/webp">
-            <img class="preshowimg" src="images/bildserie001.jpg" alt="två rosa blommor med en berg i bakgrunden" loading="lazy">
+                <source srcset="images/bildserie001.webp" 
+                type="image/webp" 
+                media="(min-width: 800px)">
+
+                <source srcset="images/bildserie001.jpg" 
+                media="(min-width: 800px)">
+
+                <source srcset="images/bildserie001small.webp" 
+                type="image/webp">
+
+            <img class="preshowimg" 
+            src="images/bildserie001small.jpg" 
+            alt="två rosa blommor med en berg i bakgrunden" 
+            loading="lazy">
             </picture>
+
             <picture>
-                <source srcset="images/bildserie004.webp" type="image/webp">
-                <img class="preshowimg" src="images/bildserie004.jpg" alt="kargt landskap där vatten rinner genom kullar" loading="lazy">
+                <source srcset="images/bildserie004.webp" 
+                type="image/webp"
+                media="(min-width: 800px)">
+
+                <source srcset="images/bildserie004.jpg"
+                media="(min-width: 800px)">
+
+                <source srcset="images/bildserie004small.webp"
+                type="image/webp">
+
+                <img class="preshowimg" 
+                src="images/bildserie004small.jpg" 
+                alt="kargt landskap där vatten rinner genom kullar" 
+                loading="lazy">
             </picture>
             <a href="about.html" class="aboutbutton">Om mig</a>
         </section>

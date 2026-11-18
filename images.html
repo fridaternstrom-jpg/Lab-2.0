@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/main.js" defer></script>
     <script src="https://kit.fontawesome.com/526849ee76.js" crossorigin="anonymous" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,17 +44,38 @@
         </section>
         <section id="realshow">
             <div class="images">
-                <h2 class="topp">Bild 006:</h2>
+                <h2 class="topp">Bild 004:</h2>
                 <picture>
-                    <source srcset="images/bildserie004.webp" type="image/webp">
-                    <img class="realshowimg" src="images/bildserie004.jpg"
+                    <source srcset="images/bildserie004.webp" 
+                    type="image/webp"
+                    media="(min-wdith: 800px)">
+
+                    <source srcset="images/bildserie004.jpg"
+                    media="(min-width: 800px)">
+
+                    <source srcset="images/bildserie004small.webp"
+                    type="image/webp">
+
+                    <img class="realshowimg" 
+                    src="images/bildserie004small.jpg"
                         alt="kargt landskap där vatten rinner genom kullar">
                 </picture>
                 <picture>
-                    <source srcset="images/bildserie004original.webp" type="image/webp">
-                    <img class="realshowimg" src="images/bildserie004original.jpg"
+                    <source srcset="images/bildserie004original.webp" 
+                    type="image/webp"
+                    media="(min-wdith: 800px)">
+
+                    <source srcset="images/bildserie004original.jpg"
+                    media="(min-width: 800px)">
+
+                    <source srcset="images/bildserie004originalsmall.webp" 
+                    type="image/webp">
+
+                    <img class="realshowimg" 
+                    src="images/bildserie004originalsmall.jpg"
                         alt="kargt landskap där vatten rinner genom kullar">
                 </picture>
+
                 <p class="bottomp">Beskrivning av vad som gjorts:</p>
                 <ul class="imageul">
                     <li>Ökat exponeringen för att få in mer ljus</li>
@@ -69,15 +89,39 @@
             <div class="images">
                 <h2 class="topp">Bild 001:</h2>
                 <picture>
-                    <source srcset="images/bildserie001.webp" type="image/webp">
-                    <img class="realshowimg" src="images/bildserie001.jpg"
-                        alt="en rosa och en lila blomma med en berg i bakgrunden" loading="lazy">
+                    <source srcset="images/bildserie001.webp" 
+                    type="image/webp"
+                    media="(min-wdith: 800px)">
+
+                    <source srcset="images/bildserie001.jpg"
+                    media="(min-width: 800px)">
+
+                    <source srcset="images/bildserie001small.webp" 
+                    type="image/webp">
+
+                    <img class="realshowimg" 
+                    src="images/bildserie001small.jpg"
+                        alt="en rosa och en lila blomma med en berg i bakgrunden" 
+                        loading="lazy">
                 </picture>
+
                 <picture>
-                    <source srcset="images/bildserie001original.webp" type="image/webp">
-                    <img class="realshowimg" src="images/bildserie001original.jpg"
-                        alt="två rosa blommor med en berg i bakgrunden" loading="lazy">
+                    <source srcset="images/bildserie001original.webp" 
+                    type="image/webp"
+                    media="(min-wdith: 800px)">
+
+                    <source srcset="images/bildserie001original.jpg"
+                    media="(min-width: 800px)">
+
+                    <source srcset="images/bildserie001originalsmall.webp" 
+                    type="image/webp">
+
+                    <img class="realshowimg" 
+                    src="images/bildserie001originalsmall.jpg"
+                        alt="två rosa blommor med en berg i bakgrunden" 
+                        loading="lazy">
                 </picture>
+
                 <p class="bottomp">Beskrivning av vad som gjorts:</p>
                 <ul class="imageul">
                     <li>Ökat exponeringen för att få in mer ljus</li>
