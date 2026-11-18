@@ -37,10 +37,30 @@
             <p>Laboration 2.0</p>
         </div>
         <picture>
-            <source srcset="images/header.avif" type="image/avif" media="(min-width: 800px)">
-            <source srcset="images/header.png" media="(min-width: 800px)">
-            <source srcset="images/headersmall.avif" type="image/avif">
-            <img id="heroimg" src="images/headersmall.png" alt="utsikt över skånska vidder i dimma" fetchpriority="high">
+            <source srcset="images/header-1200.avif" 
+            type="image/avif"
+            sizes="100vw"
+            media="(min-width: 800px)">
+
+            <source srcset="images/header-1200.png" 
+            media="(min-width: 800px)"
+            sizes="100vw">
+
+            <source srcset="
+            images/header-small-600.avif 600w,
+            images/header-small-800.avif 800w" 
+            type="image/avif"
+            sizes="100vw">
+
+            <img id="heroimg" 
+            src="images/header-small-600.png"
+            srcset="images/header-small-600.png 600w,
+            images/header-small-800.png 800w"
+            sizes="100vw"
+            width="600"
+            height="557"
+            alt="utsikt över skånska vidder i dimma" 
+            fetchpriority="high">
         </picture>
         <section id="info">
             <h1>Laboration 2.0</h1>
