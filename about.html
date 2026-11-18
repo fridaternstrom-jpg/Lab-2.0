@@ -43,16 +43,22 @@
                 <p>Några fakta om mig, som gjort den här uppgiften:<br><br>
                     <strong>Namn:</strong> Frida Ternström<br>
                     <strong>Ålder:</strong> Fyller 40 den 30/11<br>
-                    <strong>Sysselsättning:</strong> Student vid Webbutvecklings-<br>programmet
+                    <strong>Sysselsättning:</strong> Student vid Webbutvecklingsprogrammet
                     på Mittuniversitetet<br>
-                    <strong>Tycker om:</strong> Lugn och ro, skogen<br>
-                    och bra musik
+                    <strong>Tycker om:</strong> Lugn och ro, skogen och bra musik
                 </p>
             </div>
             <div id="aboutportrait">
                 <picture>
-                    <source srcset="images/portrait.avif" type="image/avif">
-                <img id="portrait" src="images/portrait.png" 
+                    <source srcset="images/portrait-small.avif 400w,
+                    images/portrait.avif 800w"
+                    sizes="(min-width:1000px) 80vw, 40vw" type="image/avif">
+                <img id="portrait" src="images/portrait-small.png"
+                srcset="images/portrait-small.png 400w,
+                images/portrait.png 800w"
+                sizes="(min-width:1000px) 40vw, 80vw"
+                width="400"
+                height="395" 
                 alt="porträtt på Frida Ternström" 
                 fetchpriority="high">
             </picture>

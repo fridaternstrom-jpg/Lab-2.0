@@ -337,6 +337,10 @@ main {
         font-size: 1.5em;
     }
 
+    #aboutportrait {
+        justify-self: center;
+    }
+
     #aboutbutton {
         margin-top: 60px;
         margin-bottom: 80px;
