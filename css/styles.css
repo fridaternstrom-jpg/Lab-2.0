@@ -303,14 +303,22 @@ main {
     align-items: center;
 }
 
+#bottomsection h2 {
+margin-bottom: 0;
+font-size: 1.8rem;
+}
+
+#bottomsection p {
+    font-size: 1.2rem;
+}
+
 #video-background {
     background-color: white;
 }
 
 #video-container {
     position: relative;
-    padding: 20px;
-    padding-bottom: 58.25%;
+    padding-bottom: 48%;
     margin: 0px 40px 100px;
     height: 0;
     display: block;
@@ -334,7 +342,7 @@ main {
     width: 40%;
     max-width: 150px;
     margin-top: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     font-size: 1.2em;
 }
 
@@ -370,6 +378,12 @@ main {
         padding: 15px;
         font-size: 1.5em;
     }
+
+#video-container {
+    padding-bottom: 34%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 }
 
